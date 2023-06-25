@@ -1,0 +1,296 @@
+body,
+html {
+	margin: 0 auto;
+	font-size: 16px;
+	max-width: 100%;
+	font-family: 'Bitter', serif;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	color: #003b4f;
+	margin: 20px 0 0 0;
+}
+
+#naslov {
+	font-size: 60px;
+}
+
+h3 {
+	margin: 0;
+	color: gray;
+}
+
+.h1-kategorija {
+	text-align: center;
+	margin: 1.5em;
+}
+
+nav {
+	margin: 10px auto 0 auto;
+	max-width: 70%;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #003b4f;
+	text-align: center;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-size: 32px;
+	display: block;
+	text-align: center;
+	margin: 1.2em 0;
+}
+
+section {
+	width: 70%;
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 15%;
+}
+
+.index-article {
+	border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+	margin: 1em 4.2em;
+}
+
+article {
+	float: left;
+	margin: 4% 0 4% 0;
+}
+
+img {
+	width: 300px;
+	height: 150px;
+}
+
+.clanak-img {
+	width: 100%;
+	height: 100%;
+}
+
+article p {
+	margin-right: 5%;
+}
+
+.index-article-heading {
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1px;
+    display: block;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    bottom: 1em;
+    background-color: white;
+}
+
+.index-article-heading h4 {
+	display: block;
+	position: relative;
+	padding: 0 0.2em;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgrey;
+	color: grey;
+	padding: 0.1em 0;
+	margin-top: 15em;
+	text-align: center;
+}
+
+#clanak a {
+	float: right;
+	margin-bottom: 10px;
+}
+
+#clanak h1 {
+	margin: 4% 0 4% 0;
+	font-size: 40px;
+	color: black;
+}
+
+#clanak article {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+.breadcrumb {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	float: none;
+}
+
+#clanak-vrijeme {
+	border-color: lightgrey;
+    border-width: 0.5px;
+    border-style: solid;
+	padding: 0.5em;
+    width: 100%;
+}
+
+#clanak h3 {
+	width: 100%;
+	margin: 1em 0;
+	text-align: left;
+	padding: 2% 0%;
+}
+
+#clanak img {
+	display: block;
+	width: 70%;
+}
+
+#clanak p {
+	text-align: left;
+	margin: 0 auto;
+}
+
+#clanak section {
+	width: 50%;
+	margin: 0 auto;
+	float: left;
+}
+
+
+#forma_unos h1 {
+	text-align: left;
+	margin: 4% 0 4% 0;
+	font-size: 40px;
+	color: black;
+	font-weight: bold;
+}
+
+
+#forma_unos label {
+	font-weight: bold;
+	display: block;
+	text-align: left;
+	margin-left: 15em;
+}
+
+#forma_unos input[type=checkbox] {
+	width: 50%;
+	display: block;
+	justify-content: center;
+	margin: 1% 10%;
+}
+
+
+#forma_unos input[type=text],
+#forma_unos input[type=email],
+#forma_unos select,
+#forma_unos textarea {
+	width: 50%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: left;
+	display: block;
+	margin: 1% auto 3% auto;
+	justify-content: center;
+	font-size: 95%;
+}
+
+
+#forma_unos input[type=submit] {
+	display: block;
+	margin: 1% auto 3% auto;
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 50%;
+	font-size: 2vw;
+}
+
+#registracija_form {
+	display: block;
+	text-align: left;
+	margin-top: 15vh;
+	padding-left: 55vh;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.login-error-div {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#a-pocetna {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.form-item {
+	margin: 0 auto;
+	width: 70%;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+@media screen and (max-width: 1100px) {
+	nav li {
+		float: left;
+		width: 50%;
+	}
+
+	nav li a {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	article {
+		width: 100%;
+	}
+
+	nav li {
+		float: left;
+		width: 100%;
+	}
+
+	nav li a {
+		display: block;
+	}
+}
